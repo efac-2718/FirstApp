@@ -16,7 +16,7 @@ function getDevMenuHint() {
   if (Device.isDevice) {
     return (
       <ThemedText type="small">
-        shake device or press <ThemedText type="code">m</ThemedText> in terminal
+        Hello React Native! This is a test <ThemedText type="code">m</ThemedText> in terminal
       </ThemedText>
     );
   }
